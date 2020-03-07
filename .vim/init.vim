@@ -1,1 +1,0 @@
-/Users/uji/dotfiles/.vimrc
