@@ -24,7 +24,11 @@ if dein#load_state(s:dein_dir)
         \ { 'name': 'complete_lazy', 'lazy': 1 },
         \ ]
 
-  let s:path = {name -> $HOME . '/.vim/init/' . name . '.toml'}
+  if has('nvim')
+    let s:path = {name -> $HOME . '/.config/nvim/init/' . name . '.toml'}
+  else
+    let s:path = {name -> $HOME . '/.vim/init/' . name . '.toml'}
+  endif
   let s:load_toml = {name, lazy -> dein#load_toml(s:path(name), {'lazy': lazy})}
 
   call dein#begin(s:dein_dir, map(deepcopy(s:toml), {_, t -> t['name']}))
