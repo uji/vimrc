@@ -1,6 +1,4 @@
 inoremap <C-[> <ESC>
-inoremap <C-h> <Left>
-inoremap <C-l> <Right>
 let mapleader = "\<Space>"
 
 "terminal
