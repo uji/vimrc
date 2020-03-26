@@ -17,6 +17,9 @@ hook_post_update = '''
 '''
 
 [[plugins]]
+repo = 'mattn/vim-lexiv'
+
+[[plugins]]
 repo = 'tpope/vim-surround'
 
 [[plugins]]
