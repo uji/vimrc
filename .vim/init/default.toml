@@ -23,6 +23,9 @@ repo = 'mattn/vim-lexiv'
 repo = 'tpope/vim-surround'
 
 [[plugins]]
+repo = 'tpope/vim-abolish'
+
+[[plugins]]
 repo = 'andymass/vim-matchup'
 
 [[plugins]]
