@@ -19,6 +19,7 @@ set smartindent
 set hidden
 set hlsearch
 syntax enable
+colorscheme novum
 
 set ignorecase
 set smartcase
