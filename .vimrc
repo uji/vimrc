@@ -19,6 +19,7 @@ set smartindent
 set hidden
 set hlsearch
 syntax enable
+set synmaxcol=320
 colorscheme novum
 
 set ignorecase
@@ -37,10 +38,13 @@ augroup END
 
 let mapleader = "\<Space>"
 inoremap <C-[> <ESC>
-nnoremap <C-n> :NERDTreeToggle<CR>
-nnoremap ,nf :NERDTreeFind<CR>
 
 "terminal
 tnoremap <silent> <C-[> <C-\><C-n>
 
-let NERDTreeShowHidden = 1
+let g:netrw_banner=0
+let g:netrw_browse_split=4
+let g:netrw_altv=1
+let g:netrw_liststyle=3
+let g:netrw_list_hide=netrw_gitignore#Hide()
+let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'

@@ -1,6 +1,3 @@
-[submodule ".vim/pack/mypackage/start/nerdtree"]
-	path = .vim/pack/mypackage/start/nerdtree
-	url = https://github.com/preservim/nerdtree.git
 [submodule ".vim/pack/mypackage/start/vim-lexiv"]
 	path = .vim/pack/mypackage/start/vim-lexiv
 	url = https://github.com/mattn/vim-lexiv
