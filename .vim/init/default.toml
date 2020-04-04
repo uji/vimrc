@@ -79,3 +79,7 @@ repo = 'kassio/neoterm'
 
 [[plugins]]
 repo = 'itchyny/vim-gof'
+
+# [[plugins]]
+# repo = 'vim-jp/vital.vim'
+# merged = '0'

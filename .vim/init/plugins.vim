@@ -5,7 +5,6 @@ endif
 let s:dein_dir = expand('~/.cache/.vim/dein')
 let s:dein_repo_dir = expand('~/.cache/.vim/dein/repos/github.com/Shougo/dein.vim')
 
-"let g:dein#types#git#default_protocol = "ssh"
 if &runtimepath !~# 'dein.vim'
   if !isdirectory(s:dein_repo_dir)
     execute '!git clone https://github.com/Shougo/dein.vim.git' s:dein_repo_dir
@@ -15,7 +14,6 @@ endif
 
 let g:dein#auto_recache = 1
 
-" 設定開始
 if dein#load_state(s:dein_dir)
 
   let s:toml = [
