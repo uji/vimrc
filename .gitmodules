@@ -1,0 +1,18 @@
+[submodule ".vim/pack/mypackage/start/nerdtree"]
+	path = .vim/pack/mypackage/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule ".vim/pack/mypackage/start/vim-lexiv"]
+	path = .vim/pack/mypackage/start/vim-lexiv
+	url = https://github.com/mattn/vim-lexiv
+[submodule ".vim/pack/mypackage/start/vim-surround"]
+	path = .vim/pack/mypackage/start/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule ".vim/pack/mypackage/start/vim-abolish"]
+	path = .vim/pack/mypackage/start/vim-abolish
+	url = https://github.com/tpope/vim-abolish
+[submodule ".vim/pack/mypackage/start/vim-matchup"]
+	path = .vim/pack/mypackage/start/vim-matchup
+	url = https://github.com/andymass/vim-matchup
+[submodule ".vim/pack/mypackage/start/indentLine"]
+	path = .vim/pack/mypackage/start/indentLine
+	url = https://github.com/Yggdroot/indentLine

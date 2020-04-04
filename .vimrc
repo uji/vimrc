@@ -1,8 +1,4 @@
-runtime! init/*.vim
-runtime! filetype/*.vim
 runtime! mapping/*.vim
-runtime! settings/*.vim
-runtime! colors/*.vim
 filetype plugin indent on
 set shell=bash
 
@@ -23,7 +19,6 @@ set smartindent
 set hidden
 set hlsearch
 syntax enable
-colorscheme nord
 
 set ignorecase
 set smartcase
@@ -37,3 +32,14 @@ set nobackup
 augroup save
   autocmd BufWritePre * :%s/\s\+$//ge
 augroup END
+
+
+let mapleader = "\<Space>"
+inoremap <C-[> <ESC>
+nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap ,nf :NERDTreeFind<CR>
+
+"terminal
+tnoremap <silent> <C-[> <C-\><C-n>
+
+let NERDTreeShowHidden = 1
