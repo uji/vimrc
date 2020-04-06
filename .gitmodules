@@ -37,3 +37,6 @@
 [submodule ".vim/pack/mypackage/start/vim-goimports"]
 	path = .vim/pack/mypackage/start/vim-goimports
 	url = https://github.com/mattn/vim-goimports
+[submodule ".vim/pack/mypackage/start/ale"]
+	path = .vim/pack/mypackage/start/ale
+	url = https://github.com/dense-analysis/ale
