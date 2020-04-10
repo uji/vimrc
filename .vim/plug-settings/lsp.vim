@@ -3,7 +3,7 @@ imap <c-space> <Plug>(asyncomplete_force_refresh)
 function! s:on_lsp_buffer_enabled() abort
   setlocal omnifunc=lsp#complete
   setlocal signcolumn=yes
-  nmap <buffer> ld <plug>(lsp-definition)
+  nmap <buffer> gl <plug>(lsp-definition)
   nmap <buffer> <f2> <plug>(lsp-rename)
 endfunction
 
