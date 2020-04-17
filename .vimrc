@@ -27,6 +27,7 @@ set ignorecase
 set smartcase
 
 set wildmenu
+set wildmode=longest,full
 
 set noswapfile
 set noundofile
