@@ -1,5 +1,6 @@
 runtime! mapping/*.vim
 runtime! plug-settings/*.vim
+runtime local.vim
 filetype plugin indent on
 set shell=bash
 
