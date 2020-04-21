@@ -40,3 +40,6 @@
 [submodule ".vim/pack/mypackage/start/ale"]
 	path = .vim/pack/mypackage/start/ale
 	url = https://github.com/dense-analysis/ale
+[submodule ".vim/pack/mypackage/start/ujicolo.vim"]
+	path = .vim/pack/mypackage/start/ujicolo.vim
+	url = https://github.com/uji/ujicolo.vim

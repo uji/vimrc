@@ -23,7 +23,7 @@ set hidden
 set hlsearch
 syntax enable
 set synmaxcol=320
-colorscheme novum
+colorscheme ujicolo
 
 set ignorecase
 set smartcase
