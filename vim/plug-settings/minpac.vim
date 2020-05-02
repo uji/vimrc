@@ -19,6 +19,8 @@ if exists('*minpac#init')
   call minpac#add('mattn/vim-lsp-settings')
   call minpac#add('mattn/vim-sonictemplate')
   call minpac#add('uji/ujicolo.vim')
+  call minpac#add('junegunn/fzf', { 'do': { -> fzf#install() } })
+  call minpac#add('junegunn/fzf.vim')
 
   " go
   call minpac#add('mattn/vim-goimports', {'type': 'opt'})
