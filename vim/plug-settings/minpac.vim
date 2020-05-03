@@ -21,6 +21,7 @@ if exists('*minpac#init')
   call minpac#add('uji/ujicolo.vim')
   call minpac#add('junegunn/fzf', { 'do': { -> fzf#install() } })
   call minpac#add('junegunn/fzf.vim')
+  call minpac#add('Lokaltog/vim-easymotion')
 
   " go
   call minpac#add('mattn/vim-goimports', {'type': 'opt'})
