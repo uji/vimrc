@@ -1,3 +1,3 @@
-nmap <c-p> :Files<CR>
-nmap <c-b> :Buffers<CR>
-nmap <c-g> :Ag<CR>
+nmap <Leader>p :Files<CR>
+nmap <Leader>b :Buffers<CR>
+nmap <Leader>g :Ag<CR>

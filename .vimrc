@@ -1,6 +1,7 @@
 runtime! mapping/*.vim
 runtime! plug-settings/*.vim
 runtime! command/*.vim
+runtime! language/*.vim
 runtime local.vim
 filetype plugin indent on
 set shell=bash
@@ -38,9 +39,3 @@ set nobackup
 augroup save
   autocmd BufWritePre * :%s/\s\+$//ge
 augroup END
-
-let mapleader = "\<Space>"
-inoremap <C-[> <ESC>
-
-"terminal
-tnoremap <silent> <C-[> <C-\><C-n>
