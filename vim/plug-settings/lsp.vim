@@ -6,6 +6,7 @@ function! s:on_lsp_buffer_enabled() abort
   nmap <buffer> gl <plug>(lsp-definition)
   nmap <buffer> gp <plug>(lsp-peek-definition)
   nmap <buffer> <f2> <plug>(lsp-rename)
+  nmap <buffer> <f3> <plug>(lsp-implementation)
 endfunction
 
 augroup lsp_install
