@@ -24,7 +24,7 @@ set hidden
 set hlsearch
 syntax enable
 set synmaxcol=320
-colorscheme ujicolo
+colorscheme slate
 
 set ignorecase
 set smartcase
