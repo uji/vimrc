@@ -23,6 +23,9 @@ if exists('*minpac#init')
   call minpac#add('junegunn/fzf.vim')
   call minpac#add('Lokaltog/vim-easymotion')
   call minpac#add('sheerun/vim-polyglot')
+
+  " go
+  call minpac#add('mattn/vim-goimports', {'type': 'opt'})
 endif
 
 command! MinPacUpdate packadd minpac | source $MYVIMRC | call minpac#update()

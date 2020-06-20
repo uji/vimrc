@@ -1,5 +1,5 @@
-au BufWrite *.go call s:goimports()
+au BufNew,BufRead *.go call <SID>go_setting()
 
-function! s:goimports() abort
-  :LspCodeAction source.organizeImports
+function! s:go_setting() abort
+  packadd vim-goimports
 endfunction
