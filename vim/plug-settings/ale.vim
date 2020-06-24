@@ -1,3 +1,4 @@
+let g:ale_disable_lsp = 1
 let g:ale_fixers = {}
 let g:ale_fixers['javascript'] = ['prettier']
 let g:ale_fixers['typescript'] = ['prettier']
