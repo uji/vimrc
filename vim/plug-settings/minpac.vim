@@ -23,6 +23,7 @@ if exists('*minpac#init')
   call minpac#add('junegunn/fzf.vim')
   call minpac#add('Lokaltog/vim-easymotion')
   call minpac#add('sheerun/vim-polyglot')
+  call minpac#add('lambdalisue/gina.vim')
 
   " go
   call minpac#add('mattn/vim-goimports', {'type': 'opt'})
