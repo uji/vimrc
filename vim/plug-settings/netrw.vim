@@ -5,4 +5,21 @@ let g:netrw_winsize=20
 let g:netrw_liststyle=3
 let g:netrw_home=$HOME
 
-nmap <silent><c-n> :Vex<CR>
+let g:NetrwIsOpen=0
+function! ToggleNetrw()
+  if g:NetrwIsOpen
+    let i = bufnr("$")
+    while (i >= 1)
+      if (getbufvar(i, "&filetype") == "netrw")
+        silent exe "bwipeout " . i
+      endif
+      let i-=1
+    endwhile
+    let g:NetrwIsOpen=0
+  else
+    let g:NetrwIsOpen=1
+    silent Vex
+  endif
+endfunction
+
+nmap <silent><leader>n :call ToggleNetrw()<CR>
