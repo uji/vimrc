@@ -18,12 +18,12 @@ if exists('*minpac#init')
   call minpac#add('prabirshrestha/vim-lsp')
   call minpac#add('mattn/vim-lsp-settings')
   call minpac#add('mattn/vim-sonictemplate')
-  call minpac#add('uji/ujicolo.vim')
   call minpac#add('junegunn/fzf', { 'do': { -> fzf#install() } })
   call minpac#add('junegunn/fzf.vim')
   call minpac#add('Lokaltog/vim-easymotion')
   call minpac#add('sheerun/vim-polyglot')
   call minpac#add('lambdalisue/gina.vim')
+  call minpac#add('arcticicestudio/nord-vim')
 
   " go
   call minpac#add('mattn/vim-goimports', {'type': 'opt'})

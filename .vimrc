@@ -24,7 +24,9 @@ set hidden
 set hlsearch
 syntax enable
 set synmaxcol=320
-colorscheme slate
+
+colorscheme nord
+set termguicolors
 
 set ignorecase
 set smartcase
