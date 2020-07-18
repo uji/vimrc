@@ -10,8 +10,6 @@ set encoding=utf-8
 scriptencoding utf-8
 set fileformat=unix
 setlocal ff=unix
-set number
-set relativenumber
 set clipboard+=unnamed
 
 set expandtab
