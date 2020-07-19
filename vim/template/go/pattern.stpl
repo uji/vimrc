@@ -1,3 +1,9 @@
 \(\S\+\)\.forrange$
 	for {{_cursor_}}, {{$1}} := range {{$1}}s {
 	}
+gmctrl$
+	ctrl := gomock.NewController(t)
+json$
+	`json:"{{_cursor_}}"`
+db$
+	`db:"{{_cursor_}}"`
