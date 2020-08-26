@@ -1,5 +1,6 @@
-au BufNew,BufRead *.go call <SID>go_setting()
+au BufWritePre *.go call s:go_format()
 
-function! s:go_setting() abort
-  packadd vim-goimports
+function! s:go_format() abort
+  :silent! LspDocumentFormatSync
+  :silent! LspCodeActionSync source.organizeImports
 endfunction
