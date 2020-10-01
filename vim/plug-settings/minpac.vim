@@ -18,13 +18,16 @@ if exists('*minpac#init')
   call minpac#add('prabirshrestha/vim-lsp')
   call minpac#add('mattn/vim-lsp-settings')
   call minpac#add('mattn/vim-sonictemplate')
-  call minpac#add('junegunn/fzf', { 'do': { -> fzf#install() } })
+  call minpac#add('junegunn/fzf')
+  " TODO: hook install fzf binary
+  " call minpac#add('junegunn/fzf', { 'do': { -> fzf#install() } })
   call minpac#add('junegunn/fzf.vim')
   call minpac#add('Lokaltog/vim-easymotion')
-  call minpac#add('sheerun/vim-polyglot')
   call minpac#add('lambdalisue/gina.vim')
   call minpac#add('arcticicestudio/nord-vim')
   call minpac#add('vim-test/vim-test')
+
+  call minpac#add('sheerun/vim-polyglot', {'type': 'opt'})
 endif
 
 command! MinPacUpdate packadd minpac | source $MYVIMRC | call minpac#update()
