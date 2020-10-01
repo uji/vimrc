@@ -24,6 +24,7 @@ if exists('*minpac#init')
   call minpac#add('sheerun/vim-polyglot')
   call minpac#add('lambdalisue/gina.vim')
   call minpac#add('arcticicestudio/nord-vim')
+  call minpac#add('vim-test/vim-test')
 endif
 
 command! MinPacUpdate packadd minpac | source $MYVIMRC | call minpac#update()
