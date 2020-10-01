@@ -23,7 +23,9 @@ set hlsearch
 syntax enable
 set synmaxcol=320
 
-colorscheme nord
+if !empty(globpath(&rtp, 'pack/minpac/start/nord-vim'))
+  colorscheme nord
+endif
 set termguicolors
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
