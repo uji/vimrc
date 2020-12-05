@@ -1,9 +1,18 @@
-\(\S\+\)\.forrange$
-	for {{_cursor_}}, {{$1}} := range {{$1}}s {
+\(\S\+\)\.fors$
+	for i, {{$1}} := range {{$1}}s {
+		{{_cursor_}}
 	}
-gmctrl$
-	ctrl := gomock.NewController(t)
+\(\S\+\)\.form$
+	for k, v := range {{$1}} {
+		{{_cursor_}}
+	}
+err$
+	err != nil {
+		return {{_cursor_}}
+	}
 json$
 	`json:"{{_cursor_}}"`
 db$
 	`db:"{{_cursor_}}"`
+gmctrl$
+	ctrl := gomock.NewController(t)
