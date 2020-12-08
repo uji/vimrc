@@ -22,5 +22,6 @@ call minpac#add('lambdalisue/gina.vim')
 call minpac#add('arcticicestudio/nord-vim')
 call minpac#add('vim-test/vim-test')
 call minpac#add('ctrlpvim/ctrlp.vim')
+call minpac#add('mattn/ctrlp-matchfuzzy')
 
 call minpac#add('sheerun/vim-polyglot', {'type': 'opt'})
