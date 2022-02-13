@@ -36,3 +36,14 @@ let g:lsp_settings['gopls'] = {
  \    },
  \  },
  \}
+
+let g:lsp_settings_filetype_typescript = [
+ \  'typescript-language-server',
+ \  'eslint-language-server',
+ \]
+let g:lsp_settings['typescript-language-server'] = {
+ \  'config': {
+ \    'diagnostics': v:false,
+ \  },
+ \}
+
