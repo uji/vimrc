@@ -5,8 +5,8 @@ function! s:on_lsp_buffer_enabled() abort
   setlocal signcolumn=yes
   nmap <buffer> gl <plug>(lsp-definition)
   nmap <buffer> gp <plug>(lsp-peek-definition)
-  nmap <buffer> <f2> <plug>(lsp-rename)
-  nmap <buffer> <f3> <plug>(lsp-implementation)
+  nmap <buffer> gr <plug>(lsp-rename)
+  nmap <buffer> gi <plug>(lsp-implementation)
 endfunction
 
 augroup lsp_install
@@ -41,6 +41,7 @@ let g:lsp_settings_filetype_typescript = [
  \  'typescript-language-server',
  \  'eslint-language-server',
  \]
+
 let g:lsp_settings['typescript-language-server'] = {
  \  'config': {
  \    'diagnostics': v:false,
