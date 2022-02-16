@@ -42,6 +42,10 @@ let g:lsp_settings_filetype_typescript = [
  \  'eslint-language-server',
  \]
 
+let g:lsp_settings_filetype_ruby = [
+ \  'solargraph',
+ \]
+
 let g:lsp_settings['typescript-language-server'] = {
  \  'config': {
  \    'diagnostics': v:false,
