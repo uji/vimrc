@@ -25,6 +25,17 @@ let g:lsp_diagnostics_signs_warning = {'text': '🤔'}
 let g:lsp_diagnostics_virtual_text_enabled = 0
 
 let g:lsp_settings = {}
+let g:lsp_settings['efm-langserver'] = {
+ \  'disabled': v:false,
+ \  'initializationOptions': {
+ \    'documentFormatting': v:true,
+ \    'hover': v:true,
+ \    'documentSymbol': v:true,
+ \    'codeAction': v:true,
+ \    'completion': v:true
+ \  }
+ \}
+
 let g:lsp_settings['gopls'] = {
  \  'workspace_config': {
  \    'usePlaceholders': v:true,
@@ -41,8 +52,8 @@ let g:lsp_settings['gopls'] = {
  \}
 
 let g:lsp_settings_filetype_typescript = [
+ \  'efm-langserver',
  \  'typescript-language-server',
- \  'eslint-language-server',
  \]
 
 let g:lsp_settings_filetype_ruby = [
