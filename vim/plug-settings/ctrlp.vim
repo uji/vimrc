@@ -8,3 +8,4 @@ let g:ctrlp_custom_ignore = {
 nmap <Leader>p :CtrlP<CR>
 nmap <Leader>b :CtrlPBuffer<CR>
 
+let g:ctrlp_max_files = 20000
