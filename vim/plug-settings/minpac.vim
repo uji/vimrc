@@ -24,3 +24,11 @@ call minpac#add('vim-test/vim-test')
 call minpac#add('ctrlpvim/ctrlp.vim')
 
 call minpac#add('sheerun/vim-polyglot', {'type': 'opt'})
+
+" denops plugins
+if executable('deno')
+  call minpac#add('vim-denops/denops.vim')
+  call minpac#add('lambdalisue/gin.vim')
+endif
+
+
