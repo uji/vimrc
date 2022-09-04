@@ -21,7 +21,6 @@ call minpac#add('mattn/vim-lsp-settings')
 call minpac#add('mattn/vim-sonictemplate')
 call minpac#add('Lokaltog/vim-easymotion')
 call minpac#add('lambdalisue/fern.vim')
-call minpac#add('lambdalisue/gina.vim')
 call minpac#add('arcticicestudio/nord-vim')
 call minpac#add('vim-test/vim-test')
 call minpac#add('ctrlpvim/ctrlp.vim')
@@ -31,7 +30,6 @@ call minpac#add('sheerun/vim-polyglot', {'type': 'opt'})
 " denops plugins
 if executable('deno')
   call minpac#add('vim-denops/denops.vim')
-  call minpac#add('lambdalisue/gin.vim')
 endif
 
 
