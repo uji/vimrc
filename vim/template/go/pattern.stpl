@@ -1,7 +1,7 @@
 err$
 	if err != nil {
-		return err
-	}{{_cursor_}}
+		return {{_cursor_}}
+	}
 \(\S\+\)\.range$
 	for {{_cursor_}} := range {{$1}} {
 	}
