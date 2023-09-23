@@ -10,7 +10,7 @@ set encoding=utf-8
 scriptencoding utf-8
 set fileformat=unix
 setlocal ff=unix
-set clipboard=+unnamedplus
+set clipboard+=unnamedplus
 let g:clipboard = {
 \   'name': 'WslClipboard',
 \   'copy': {
